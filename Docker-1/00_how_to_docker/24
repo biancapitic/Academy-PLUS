@@ -1,0 +1,1 @@
+ocker service create --name orbital-command --network overmind --env RABBITMQ_DEFAULT_USER=bia --env RABBITMQ_DEFAULT_PASS=abc rabbitmq

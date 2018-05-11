@@ -1,0 +1,1 @@
+ervice create --name marines --replicas 2 --network overmind --env OC_USERNAME=bia --env OC_PASSWD=abc 42school/marine-squad
