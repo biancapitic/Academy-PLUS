@@ -33,12 +33,3 @@ int		ft_printf(const char *restrict format, ...)
 	va_end(arg);
 	return (z->ret);
 }
-
-int main()
-{
-	wchar_t n[] = 564;
-	//n = 67;
-	//printf("%d\n", sizeof(wchar_t));
-	printf("%S\n", n);
-	//write(1, &n, 1);
-}
